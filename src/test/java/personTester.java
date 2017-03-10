@@ -11,13 +11,7 @@ public class personTester {
 		assertEquals(21, testDummy.getAgeInYears());
 	}
 
-	@Test
-	public void testGetAgeTypical2() {
-		testDummy.setAgeInYears(100);
-		assertEquals(100, testDummy.getAgeInYears());
-	}
-
-
+	
 	@Test
 	public void testGetAgeVeryOld() {
 		testDummy.setAgeInYears(129);
